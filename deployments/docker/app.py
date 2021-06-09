@@ -21,6 +21,13 @@ def comming_soon():
         'message': 'This is coming soon page!!'
     })
 
+@app.route('/soon')
+def comming_soon():
+    return jsonify({
+        'message': 'This is coming soon page!!'
+    })
+
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
