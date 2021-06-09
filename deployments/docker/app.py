@@ -7,14 +7,14 @@ def hello_world():
     return jsonify({
         'message': 'Hello I am a developer my name is Farkhod Sadykov',
         'environment': os.environ.get('ENVIRONMENT'),
-        'owner': 'fsadykov',
+        'owner': 'husneozmen',
         'namespace': os.environ.get('NAMESPACE')
     })
 
 @app.route('/fsadykov')
-def fsadykov():
+def husneozmen():
     return jsonify({
-        'message': 'This is Farkhod Sadykovs page'
+        'message': 'This is Husne Ozmens page'
     })
 
 @app.route('/soon')
