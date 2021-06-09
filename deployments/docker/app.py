@@ -11,10 +11,17 @@ def hello_world():
         'namespace': os.environ.get('NAMESPACE')
     })
 @app.route('/husneozmen')
-def comming_soon():
+def husneozmen():
     return jsonify({
         'message': 'This is Husne Ozmens page'
     })
+
+@app.route('/soon')
+def comming_soon():
+    return jsonify({
+        'message': 'This is coming soon page!!'
+    })
+
 
 
 if __name__ == '__main__':
