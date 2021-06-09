@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return jsonify({
-        'message': 'Hello I am a developer my name is Farkhod Sadykov',
+        'message': 'Hello I am a developer my name is Husne Ozmen',
         'environment': os.environ.get('ENVIRONMENT'),
         'owner': 'husneozmen',
         'namespace': os.environ.get('NAMESPACE')
