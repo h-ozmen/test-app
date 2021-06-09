@@ -1,0 +1,5 @@
+google_project_id       = "fuchicorp-project-315576"
+google_bucket_name      = "husne_mybucket"
+deployment_environment  = "qa"
+deployment_name         = "hello-world"
+credentials             = "fuchicorp-service-account.json"
