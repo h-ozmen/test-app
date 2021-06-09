@@ -9,4 +9,4 @@ EXPOSE 5000
 ## Install all libraries  
 RUN pip install -r requirements.txt 
 ## Make sure when containers stared and application will be stared as well 
-CMD [ "/bin/sh", "-c", "python /app/app.py
+CMD [ "/bin/sh", "-c", "python /app/app.py" ]
