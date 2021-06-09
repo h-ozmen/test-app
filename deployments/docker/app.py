@@ -6,8 +6,6 @@ def hello_world():
     return jsonify({
         'message': 'hello world',
         'environment': os.environ.get('ENVIRONMENT'),
-        'environment': os.environ.get('ENVIRONMENT'),
-        'owner': 'husneozmen',
         'namespace': os.environ.get('NAMESPACE')
     })
 @app.route('/soon')
